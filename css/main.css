@@ -1,0 +1,57 @@
+html {
+     font-size: calc(.5em + .5vw);
+} 
+body {
+    background-color: rgb(201, 223, 241);
+    padding-top: 0px;
+}
+h1 {
+    font-weight: bold;
+    font-size: calc(1.25em + 1.25vw);
+    text-decoration: underline;
+}
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F0F4F3;
+}
+#navBar a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+#navBar a:link {
+    color:black;
+}
+#navBar a:visited {
+    color:green;
+}
+#navBar a:hover {
+    background: #C9DFF1;
+}
+ul li:first-child {
+    text-decoration: underline;
+}
+.Articles {
+    border: solid 1px black;
+    margin-bottom: 5px;
+}
+#breakfastIMG{
+    width: 33%;
+    height: auto;
+}
+#lunchIMG{
+    width: 33%;
+    height: auto;
+}
+#dinnerIMG{
+    width: 33%;
+    height: auto;
+}
+p::first-letter {
+    font-weight: bold;
+    color: blue;
+}
